@@ -49,7 +49,7 @@ describe('Onboarding Phase 2 Flow', () => {
 				{timeout: 30000}
 			).should('exist');
 
-			// check that the `hire our team` button is in place
+			// check that the `hire our team` button is in place.
 			cy.get(
 				'#nfd-onboarding > div > div.interface-interface-skeleton__editor > div.interface-interface-skeleton__body > div.interface-interface-skeleton__sidebar > div > div > div > div.nfd-onboarding-sidebar-learn-more__get-started-welcome > div.nfd-onboarding-sidebar-learn-more--help-panel__links > button.components-button.nfd-onboarding-button--white'
 			).should('exist');
