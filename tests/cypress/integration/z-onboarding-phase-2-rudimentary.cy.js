@@ -86,7 +86,7 @@ describe('Onboarding Phase 2 Flow', () => {
 
 			// Click start setup button
 			cy.get(
-				'#nfd-onboarding > div > div.interface-interface-skeleton__editor > div.interface-interface-skeleton__body > div.interface-interface-skeleton__content > main > div > div > div > button'
+				'#nfd-onboarding > .nfd-nav-card-button'
 			).click();
 
 			// Click radio `never used it`
